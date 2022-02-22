@@ -1,0 +1,43 @@
+.new-expense__controls{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background: linear-gradient(rgb(192, 192, 247),rgb(102, 102, 139));
+    border-radius: 12px;
+}
+.new-expense__control{
+    width: 50%;
+}
+.new-expense__control label{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+.new-expense__control input{
+    width: 70%;
+    padding: 0.6rem;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.new-expense__actions{
+    position: relative;
+    left: 100px;
+    top: 50px;
+    margin: 5px;
+}
+.new-expense__actions button{
+padding: 0.4rem;
+font-size: 18px;
+border-radius: 12px;
+background-color: rgb(59, 59, 139);
+color: white;
+border: none;
+padding: 0.8rem;
+}
+.new-expense__actions button:hover{
+    box-shadow: 0 2px 8px rgba(211, 177, 177, 0.949);
+    background-color: rgb(93, 93, 201);
+    
+}

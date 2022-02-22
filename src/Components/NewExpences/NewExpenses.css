@@ -1,0 +1,17 @@
+.new_Expenses{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.add_new_expenses_betton{
+
+padding: 0.4rem;
+font-size: 18px;
+border-radius: 12px;
+background-color: rgb(59, 59, 139);
+color: white;
+border: none;
+padding: 0.8rem;
+
+}
